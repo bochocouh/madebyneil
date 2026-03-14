@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Photographer &amp; Director</title>
+  <meta name="description" content="Portfolio of Your Name — editorial photography, portrait, and motion work." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <span class="nav-mark">// Portfolio</span>
+    <ul class="nav-links">
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <!--
+      Replace the <img> below with your own photo.
+      Recommended: a high-contrast B&W portrait, at least 1200px tall.
+      Example: <img src="images/hero.jpg" alt="Your Name" class="hero-photo" />
+    -->
+    <div class="hero-photo-wrap">
+      <div class="hero-photo hero-photo--placeholder" aria-hidden="true"></div>
+    </div>
+
+    <h1 class="hero-name">YOUR<span>NAME</span></h1>
+
+    <div class="hero-bottom">
+      <div class="hero-role">
+        Photographer &amp; Director
+        <strong>Available for commissions</strong>
+      </div>
+      <div class="scroll-hint">Scroll</div>
+    </div>
+  </section>
+
+  <!-- ── INTRO ── -->
+  <div class="section-marker">Intro</div>
+  <section class="intro-section">
+    <p class="intro-text">
+      I capture <em>moments that don't repeat.</em> Editorial, portrait,
+      and motion work for brands that want to say something real.
+    </p>
+    <p class="intro-sub">
+      Based in Los Angeles. Shooting globally. Focused on light,
+      tension, and the space between frames.
+    </p>
+    <a href="#work" class="cta-btn">See my work</a>
+  </section>
+
+  <!-- ── WORK GRID ── -->
+  <div class="section-marker" id="work">Selected work</div>
+  <section class="grid-section">
+    <!--
+      HOW TO ADD YOUR PHOTOS
+      ──────────────────────
+      Each .grid-item holds one image. The class .grid-item--wide makes it
+      span 2 columns (good for landscape shots).
+
+      Replace the <div class="grid-placeholder"> with:
+        <img src="images/your-photo.jpg" alt="Short description" loading="lazy" />
+
+      Add or remove .grid-item blocks as needed.
+      Recommended image sizes:
+        Normal (portrait):  800 × 1067 px
+        Wide (landscape):   1600 × 900 px
+    -->
+    <div class="photo-grid">
+
+      <div class="grid-item grid-item--wide">
+        <div class="grid-placeholder" style="--ph-hue:210deg;--ph-sat:15%;--ph-lit:25%;aspect-ratio:16/9"></div>
+        <div class="grid-label">Golden Hour</div>
+        <div class="grid-num">01</div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:30deg;--ph-sat:20%;--ph-lit:30%"></div>
+        <div class="grid-label">Pacific Dusk</div>
+        <div class="grid-num">02</div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:0deg;--ph-sat:0%;--ph-lit:20%"></div>
+        <div class="grid-label">Untitled #4</div>
+        <div class="grid-num">03</div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:150deg;--ph-sat:15%;--ph-lit:25%"></div>
+        <div class="grid-label">Fog &amp; Pine</div>
+        <div class="grid-num">04</div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:340deg;--ph-sat:10%;--ph-lit:30%"></div>
+        <div class="grid-label">Minimal Form</div>
+        <div class="grid-num">05</div>
+      </div>
+
+      <div class="grid-item grid-item--wide grid-item--video">
+        <div class="grid-placeholder" style="--ph-hue:195deg;--ph-sat:25%;--ph-lit:28%;aspect-ratio:16/9"></div>
+        <div class="grid-label">Tide Study</div>
+        <div class="grid-num">06</div>
+        <!-- To embed a Vimeo/YouTube video in the lightbox, add data-video-src="YOUR_EMBED_URL" to .grid-item -->
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:25deg;--ph-sat:15%;--ph-lit:35%"></div>
+        <div class="grid-label">Morning Light</div>
+        <div class="grid-num">07</div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-placeholder" style="--ph-hue:270deg;--ph-sat:10%;--ph-lit:28%"></div>
+        <div class="grid-label">Reverie</div>
+        <div class="grid-num">08</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <div class="section-marker" id="about">About</div>
+  <section class="about-section">
+    <div class="about-num" aria-hidden="true">01</div>
+    <div class="about-content">
+      <h2 class="about-title">The Work</h2>
+      <p class="about-body">
+        <strong>Five years. Three continents. One obsession.</strong><br /><br />
+        I work at the intersection of editorial photography and motion —
+        building visual language for fashion labels, musicians, and
+        independent brands who care about how things look and what they mean.<br /><br />
+        Every frame is a decision. I make them fast and with conviction.
+      </p>
+      <ul class="services-list">
+        <li class="service-row"><span>Editorial Photography</span><span class="service-num">01</span></li>
+        <li class="service-row"><span>Portrait &amp; Campaign</span><span class="service-num">02</span></li>
+        <li class="service-row"><span>Video &amp; Motion</span><span class="service-num">03</span></li>
+        <li class="service-row"><span>Art Direction</span><span class="service-num">04</span></li>
+        <li class="service-row"><span>Post Production</span><span class="service-num">05</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <div class="section-marker" id="contact">Contact</div>
+  <section class="contact-section">
+    <h2 class="contact-heading">Let's make<br /><em>something real.</em></h2>
+    <a href="mailto:hello@yourname.com" class="contact-email">hello@yourname.com</a>
+    <div class="socials">
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://vimeo.com/" target="_blank" rel="noopener">Vimeo</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>&copy; 2026 Your Name — All rights reserved</span>
+    <a href="mailto:hello@yourname.com" class="footer-email">hello@yourname.com</a>
+  </footer>
+
+  <!-- ── LIGHTBOX ── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lb-close" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lb-prev" id="lb-prev" aria-label="Previous">&#8592;</button>
+    <img id="lb-img" src="" alt="" />
+    <button class="lightbox-nav lb-next" id="lb-next" aria-label="Next">&#8594;</button>
+    <div class="lightbox-caption" id="lb-caption"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
